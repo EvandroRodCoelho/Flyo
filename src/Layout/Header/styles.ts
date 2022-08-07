@@ -31,7 +31,6 @@ export const ContainerImg = styled.div`
     }
 `
 export const Nav = styled.nav`  
-    text-align: center;
     flex: 1;
     margin-left: 20px;
     font-size: 0.90rem;
@@ -40,7 +39,7 @@ export const Nav = styled.nav`
         align-items: center;
         gap: 20px;
         width: 100%;
-        justify-content: center;
+        justify-content: flex-end;
         height: 100%;
         li{
             list-style: none;
