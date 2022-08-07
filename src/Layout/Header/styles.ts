@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.header`   
     width: 100%;
+    max-width: 100vw;
     padding: 15px 15px;
     background-color:  hsl(218, 28%, 13%);
     display: flex;
