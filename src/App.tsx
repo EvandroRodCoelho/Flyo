@@ -1,5 +1,12 @@
+import { Header } from "./Features/Header"
+import { StyleGlobal } from "./style/StyleGlobal"
+
 export const App = () => {
   return (
-    <h1> Hello world</h1>)
+    <>
+      <StyleGlobal />
+      <Header />
+    </>
+  )
 
 }
