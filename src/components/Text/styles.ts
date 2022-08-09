@@ -7,7 +7,7 @@ export const Text = styled.p<Prop>`
     color: #fff;
     font-size: 0.9em;
     font-family: "Open sans" , sans-serif;
-    margin: 15px 15px;
+    margin: 15px ;
     @media (min-width: 500px) {
         font-size:1.3em
     }
