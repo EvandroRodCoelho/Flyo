@@ -4,6 +4,7 @@ import { Title } from "../../components/Title";
 import { Text } from "../../components/Text";
 import { Button } from "../../components/Button";
 import { CardGrid } from "../../Feature/CardsGrid";
+import { DescriptionMain } from "../../Feature/DescriptionMain";
 
 
 export const Main = () => {
@@ -24,6 +25,9 @@ export const Main = () => {
                 <Button text="Get started" />
             </C.ContainerText>
             <CardGrid />
+            <DescriptionMain />
+
+
         </C.Container>
     )
 }
