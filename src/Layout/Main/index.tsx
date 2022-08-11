@@ -5,6 +5,7 @@ import { Text } from "../../components/Text";
 import { Button } from "../../components/Button";
 import { CardGrid } from "../../Feature/CardsGrid";
 import { DescriptionMain } from "../../Feature/DescriptionMain";
+import { Feedback } from "../../Feature/Feedback";
 
 
 export const Main = () => {
@@ -26,7 +27,7 @@ export const Main = () => {
             </C.ContainerText>
             <CardGrid />
             <DescriptionMain />
-
+            <Feedback />
 
         </C.Container>
     )
