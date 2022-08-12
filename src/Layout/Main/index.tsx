@@ -6,6 +6,7 @@ import { Button } from "../../components/Button";
 import { CardGrid } from "../../Feature/CardsGrid";
 import { DescriptionMain } from "../../Feature/DescriptionMain";
 import { Feedback } from "../../Feature/Feedback";
+import { SingUp } from "../../Feature/SingUp";
 
 
 export const Main = () => {
@@ -28,7 +29,7 @@ export const Main = () => {
             <CardGrid />
             <DescriptionMain />
             <Feedback />
-
+            <SingUp />
         </C.Container>
     )
 }
