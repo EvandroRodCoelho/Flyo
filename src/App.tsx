@@ -1,3 +1,4 @@
+import { Footer } from "./Layout/Footer"
 import { Header } from "./Layout/Header"
 import { Main } from "./Layout/Main"
 import { StyleGlobal } from "./style/StyleGlobal"
@@ -8,6 +9,7 @@ export const App = () => {
       <StyleGlobal />
       <Header />
       <Main />
+      <Footer />
     </>
   )
 
