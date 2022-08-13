@@ -9,9 +9,9 @@ export const Text = styled.p<Prop>`
     font-family: "Open sans" , sans-serif;
     margin: 15px ;
     @media (min-width: 500px) {
-        font-size:1.3em
+        font-size:1em;
     }
     @media (min-width: 1000px) {
-        font-size:1.5em
+        font-size:1.3em;
     }
 `
