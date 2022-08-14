@@ -1,7 +1,7 @@
-import { Title } from "../../components/Title"
-import { Text } from "../../components/Text"
+import { Title } from "../../../components/Title"
+import { Text } from "../../../components/Text"
 import * as C from "./styles"
-import { Button } from "../../components/Button"
+import { Button } from "../../../components/Button"
 export const SingUp = () => {
     let TitleContent = `
         Get early access today    

@@ -1,10 +1,10 @@
-import { Card } from "../../components/Card"
+import { Card } from "../../../components/Card"
 import * as C from "./styles"
-import { Props } from "../../components/Card"
-import anywhere from "../../assets/images/icon-access-anywhere.svg"
-import security from "../../assets/images/icon-security.svg"
-import anyfile from "../../assets/images/icon-any-file.svg"
-import collaboration from "../../assets/images/icon-collaboration.svg"
+import { Props } from "../../../components/Card"
+import anywhere from "../../../assets/images/icon-access-anywhere.svg"
+import security from "../../../assets/images/icon-security.svg"
+import anyfile from "../../../assets/images/icon-any-file.svg"
+import collaboration from "../../../assets/images/icon-collaboration.svg"
 export const CardGrid = () => {
     const Cards: Props[] = [
         {

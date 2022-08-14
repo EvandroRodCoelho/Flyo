@@ -1,8 +1,8 @@
 import * as C from "./styles"
-import { Text } from "../../components/Text"
-import Profile1 from "../../assets/images/profile-1.jpg"
-import Profile2 from "../../assets/images/profile-2.jpg"
-import Profile3 from "../../assets/images/profile-3.jpg"
+import { Text } from "../../../components/Text"
+import Profile1 from "../../../assets/images/profile-1.jpg"
+import Profile2 from "../../../assets/images/profile-2.jpg"
+import Profile3 from "../../../assets/images/profile-3.jpg"
 
 
 export const Feedback = () => {

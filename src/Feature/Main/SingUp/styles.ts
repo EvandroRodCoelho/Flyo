@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`  
-    margin-top: 30px;
+    margin-top: 50px;
 
     width: 100%;
 
@@ -9,14 +9,19 @@ export const Container = styled.section`
     justify-content: center;
     align-items: center;
     padding: 30px;
+
 `
 
 export const SingUpDiv = styled.div`   
-    width: 100%;
+    width: 90%;
     background-color: hsl(217, 28%, 15%);
     box-shadow: 3px 13px 41px -6px rgba(0,0,0,0.75);
     text-align: center;
     padding: 30px 50px;
+    position: absolute;
+    transform: translateY(150px);
+    z-index: 100;
+    border-radius: 20px;
     div{
         gap: 10px;
         display: flex;

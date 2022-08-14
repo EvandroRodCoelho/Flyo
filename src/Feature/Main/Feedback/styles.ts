@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Quotes from "../../assets/images/bg-quotes.png";
+import Quotes from "../../../assets/images/bg-quotes.png";
 
 export const Container = styled.section`   
     display: flex;

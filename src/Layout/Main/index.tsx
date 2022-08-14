@@ -3,10 +3,10 @@ import img from "../../assets/images/illustration-intro.png";
 import { Title } from "../../components/Title";
 import { Text } from "../../components/Text";
 import { Button } from "../../components/Button";
-import { CardGrid } from "../../Feature/CardsGrid";
-import { DescriptionMain } from "../../Feature/DescriptionMain";
-import { Feedback } from "../../Feature/Feedback";
-import { SingUp } from "../../Feature/SingUp";
+import { CardGrid } from "../../Feature/Main/CardsGrid";
+import { DescriptionMain } from "../../Feature/Main/DescriptionMain";
+import { Feedback } from "../../Feature/Main/Feedback";
+import { SingUp } from "../../Feature/Main/SingUp";
 
 
 export const Main = () => {
