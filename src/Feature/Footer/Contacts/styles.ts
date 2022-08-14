@@ -11,7 +11,7 @@ export const Container = styled.div`
     @media (min-width: 700px) {
         display: flex;
         div{
-            flex: 0.4;
+            flex: 0.5;
             svg{
                 font-size: 2rem;
             }
