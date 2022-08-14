@@ -13,13 +13,13 @@ The designs were created to the following widths:
 
 - Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
 - Dark Blue (main background): hsl(218, 28%, 13%)
-- Dark Blue (footer background): hsl(216, 53%, 9%)
+- Dark Blue (footer background):	#0b1523
 - Dark Blue (testimonials background): hsl(219, 30%, 18%)
 
 ### Accent
 
-- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
-- Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
+- Cyan (inside call-to-action gradient): #65e2d9
+- Blue (inside call-to-action gradient): #339ecc
 - Light Red (error): hsl(0, 100%, 63%)
 
 ### Neutral
