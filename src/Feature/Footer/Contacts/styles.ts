@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`  
-    width: 100%;
+    width: 60%;
     margin-top: 20px;
+    text-align: left;
     div{
         svg{
             font-size: 1.5rem;
@@ -11,12 +12,15 @@ export const Container = styled.div`
     @media (min-width: 700px) {
         display: flex;
         div{
-            flex: 0.5;
+           flex: 1;
+           gap: 20px;
+           margin-left: 25px;
             svg{
-                font-size: 2rem;
+                font-size: 1.5rem;
             }
             p{
-                width: 50%;
+                font-size: 1rem;
+
             }
         }
     }
