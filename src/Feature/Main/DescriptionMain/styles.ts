@@ -1,5 +1,7 @@
 import styled from "styled-components";
-
+type Props = {
+    color: string;
+}
 export const Container = styled.section`  
     margin-top: 20px;
     width: 100%;
@@ -30,13 +32,13 @@ export const Img = styled.img`
     }
 `
 
-export const Link = styled.a`  
+export const Link = styled.a<Props>`  
     cursor: pointer;
-    color: #339ecc;
+    color:${props => props.color};
     text-decoration: solid;
-    text-decoration-color:#339ecc;
     p{
-    color: #339ecc;
+        transition: all .3s;
+        color:${props => props.color};
     }
 `
 export const LinkContainer = styled.div`  
@@ -45,6 +47,16 @@ export const LinkContainer = styled.div`
     align-items: center;
     gap: 10px;
     cursor: pointer;
+    border-bottom: 2px solid #339ecc;
+    width: 40%;
+    transition: border .3s;
+    &:hover{
+        color: #fff;
+        border-bottom: 2px solid #fff;
+    }
+    &:hover > a{
+        color: #fff;
+    }
     img{
         width: 30px;
         height: 30px;

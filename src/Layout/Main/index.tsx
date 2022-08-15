@@ -29,7 +29,6 @@ export const Main = () => {
             <CardGrid />
             <DescriptionMain />
             <Feedback />
-            <SingUp />
         </C.Container>
     )
 }

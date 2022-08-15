@@ -11,5 +11,6 @@ export const StyleGlobal = createGlobalStyle`
     body{
         max-width: 100vw;
         overflow-x: none;
+        background-color:  hsl(218, 28%, 13%);
     }
 `

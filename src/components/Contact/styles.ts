@@ -4,6 +4,7 @@ export const Container = styled.div`
     display: flex;
     padding: 10px 20px;
     gap: 20px;
+    align-items: center;
     svg{
         font-size: 2rem;
     }

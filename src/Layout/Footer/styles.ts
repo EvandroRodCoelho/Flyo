@@ -3,28 +3,32 @@ import styled from "styled-components";
 export const Container = styled.footer` 
     background-color:pink;
     width: 100%;
-    position: relative;
-    padding: 40px 20px;
+    max-width: 100vw;
+    padding: 40px 40px;
     background-color: #0b1523;
-
+    display: block;
+   max-height: 150vh;
     div{
+        margin-top: 20px;
         svg{
             color: #fff;
         }
     }
 
 `
+export const ContainerFooter = styled.div` 
+    transform: translateY(-170px);
+
+
+`
 export const ContainerImg = styled.div`     
-    height: 50vh;
     display: flex;
     align-items: flex-end;
     justify-content:flex-start;
+    align-items: center;
     padding:0 20px;
-    @media (min-width: 700px){
-        height: 25vh;
-    }
     @media (min-width: 1000px){
-        height: 50vh;
+        padding: 0;
         img{
             margin-left: 55px;
         }

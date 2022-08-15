@@ -4,7 +4,8 @@ import bgDesktop from "../../assets/images/bg-curvy-desktop.svg"
 export const Container = styled.main`   
     max-width: 100vw;
     width: 100%;
-    padding: 20px;
+    padding:30px 20px ;
+    margin-bottom: 50px;
     background-color: hsl(218, 28%, 13%);
    
     `

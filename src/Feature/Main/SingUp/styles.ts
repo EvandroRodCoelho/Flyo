@@ -8,8 +8,8 @@ export const Container = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
-
+    padding: 20px;
+    transform: translateY(-180px);
 `
 
 export const SingUpDiv = styled.div`   
@@ -18,9 +18,6 @@ export const SingUpDiv = styled.div`
     box-shadow: 3px 13px 41px -6px rgba(0,0,0,0.75);
     text-align: center;
     padding: 30px 60px;
-    position: absolute;
-    transform: translateY(150px);
-    z-index: 100;
     border-radius: 20px;
     div{
         gap: 10px;

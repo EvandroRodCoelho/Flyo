@@ -9,6 +9,7 @@ export const Container = styled.div`
 `
 export const Social = styled.div`  
     max-width: 50px;
+    width: 20%;
     height: 50px;
     border: 2px solid #fff;
     border-radius: 50%;
