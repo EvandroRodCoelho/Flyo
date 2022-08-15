@@ -17,6 +17,7 @@ export const Container = styled.header`
 `
 export const ContainerImg = styled.div` 
     img{
+        margin-left: 20px;
         width: 60px;
         cursor: pointer;
     }

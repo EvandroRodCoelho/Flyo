@@ -6,7 +6,7 @@ export const Container = styled.div`
     text-align: left;
     div{
         svg{
-            font-size: 1.5rem;
+            font-size: 1rem;
         }
     }
     @media (min-width: 700px) {
@@ -16,7 +16,7 @@ export const Container = styled.div`
            gap: 20px;
            margin-left: 25px;
             svg{
-                font-size: 1.5rem;
+                font-size: 2.5rem;
             }
             p{
                 font-size: 1rem;

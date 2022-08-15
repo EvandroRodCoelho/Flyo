@@ -11,7 +11,7 @@ export const Text = styled.p<Prop>`
     @media (min-width: 500px) {
         font-size:1em;
     }
-    @media (min-width: 1000px) {
+    @media (min-width: 1100px) {
         font-size:1.3em;
     }
 `
