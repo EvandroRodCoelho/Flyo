@@ -20,13 +20,17 @@ export const ContainerImg = styled.div`
        max-width: 900px;
     }
     @media (min-width: 500px) {
+        margin-left: 30px;
         img{
             width: 300px;
+            height: 200px;
         }
     }
     @media (min-width: 1000px) {
+        margin-left: 60px;
         img{
             width: 600px;
+            height: 400px;
         }
     }
 `

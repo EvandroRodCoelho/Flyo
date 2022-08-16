@@ -20,7 +20,7 @@ The designs were created to the following widths:
 
 - Cyan (inside call-to-action gradient): #65e2d9
 - Blue (inside call-to-action gradient): #339ecc
-- Light Red (error): hsl(0, 100%, 63%)
+- Light Red (error):hsl(0, 100%, 63%) 
 
 ### Neutral
 

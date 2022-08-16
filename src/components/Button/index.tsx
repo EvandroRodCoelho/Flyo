@@ -5,7 +5,7 @@ type Prop = {
 }
 export const Button = ({ text }: Prop) => {
     return (
-        <C.Button tabIndex={1}>
+        <C.Button tabIndex={0}>
             <Text content={text} Padding={false} />
         </C.Button>
     )

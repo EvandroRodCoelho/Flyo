@@ -3,7 +3,7 @@ import Logo from "../../assets/images/logo.svg";
 import { Contacts } from "../../Feature/Footer/Contacts";
 import { Links } from "../../Feature/Footer/Links";
 import { SocialMedia } from "../../Feature/Footer/SocialMedia";
-import { SingUp } from "../../Feature/Main/SingUp";
+import { SingUp } from "../../Feature/Footer/SingUp";
 
 export const Footer = () => {
 

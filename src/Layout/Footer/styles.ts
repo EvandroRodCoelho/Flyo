@@ -2,12 +2,11 @@ import styled from "styled-components";
 
 export const Container = styled.footer` 
     background-color:pink;
-    width: 100%;
+    height: auto;
     max-width: 100vw;
     padding: 40px 40px;
     background-color: #0b1523;
     display: block;
-   max-height: 150vh;
     div{
         margin-top: 20px;
         svg{
