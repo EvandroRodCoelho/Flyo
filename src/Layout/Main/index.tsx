@@ -6,7 +6,7 @@ import { Button } from "../../components/Button";
 import { CardGrid } from "../../Feature/Main/CardsGrid";
 import { DescriptionMain } from "../../Feature/Main/DescriptionMain";
 import { Feedback } from "../../Feature/Main/Feedback";
-import { SingUp } from "../../Feature/Main/SingUp";
+import { SingUp } from "../../Feature/Footer/SingUp";
 
 
 export const Main = () => {

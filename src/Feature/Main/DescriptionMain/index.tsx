@@ -4,6 +4,7 @@ import { Title } from "../../../components/Title"
 import { Text } from "../../../components/Text"
 import Arrow from "../../../assets/images/icon-arrow.svg"
 import { useState } from "react"
+import { AiOutlineArrowRight } from "react-icons/ai"
 export const DescriptionMain = () => {
     let TextTitle = "Stay productive, wherever you are";
     let Text1 = `Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
@@ -27,7 +28,10 @@ export const DescriptionMain = () => {
                     <C.Link className="Ola" color={color}>
                         <Text Padding={false} content="See how Fylo works" />
                     </C.Link>
-                    <img src={Arrow} alt="Arrow icon" />
+                    <C.ContainerArrow className="arrow">
+                        <AiOutlineArrowRight />
+                    </C.ContainerArrow>
+
                 </C.LinkContainer>
             </div>
         </C.Container>

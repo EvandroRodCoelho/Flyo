@@ -4,13 +4,13 @@ export const SocialMedia = () => {
 
     return (
         <C.Container>
-            <C.Social>
+            <C.Social tabIndex={0}>
                 <FaFacebookF />
             </C.Social>
-            <C.Social>
+            <C.Social tabIndex={0}>
                 <FaInstagram />
             </C.Social>
-            <C.Social>
+            <C.Social tabIndex={0}>
                 <FaTwitter />
             </C.Social>
         </C.Container>

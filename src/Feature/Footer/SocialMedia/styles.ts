@@ -21,8 +21,9 @@ export const Social = styled.div`
     & , svg{
         transition: all .2s;
     }
-    &:hover{
+    &:hover, &:focus{
         border: 2px solid #339ecc;
+        outline: 0;
         svg{
             color:#339ecc;
         }

@@ -19,11 +19,13 @@ export const ContainerImg = styled.div`
     img{
         margin-left: 20px;
         width: 60px;
+        height: 30px;
         cursor: pointer;
     }
     @media (min-width: 500px) {
         img{
             width: 100px;
+            height: 50px;
         }
     }
     @media (min-width: 1000px) {
@@ -57,5 +59,8 @@ export const Nav = styled.nav`
 export const Link = styled.a`  
     text-decoration: none;
     color: #fff;
-
+    transition: all .3s;
+    &:hover, &:focus{
+        opacity: 0.9;
+    }
 `

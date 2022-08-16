@@ -48,20 +48,27 @@ export const LinkContainer = styled.div`
     gap: 10px;
     cursor: pointer;
     border-bottom: 2px solid #339ecc;
-    width: 40%;
+    width: 60%;
     transition: border .3s;
     &:hover{
-        color: #fff;
         border-bottom: 2px solid #fff;
     }
     &:hover > a{
         color: #fff;
     }
+    &:hover > .arrow{
+        background-color: #fff;
+    }
     img{
         width: 30px;
         height: 30px;
+        background-color: #fff;
+    }
+    @media (min-width: 500px){
+        width: 70%;
     }
     @media (min-width: 1000px) {
+        width: 40%;
 
        img { 
         width : 50px;
@@ -69,3 +76,10 @@ export const LinkContainer = styled.div`
     }
     }
 `
+
+export const ContainerArrow = styled.div`
+    background-color: #339ecc;
+    border-radius: 50%;
+    padding: 8px;
+    transition: background .3s;
+    `   
