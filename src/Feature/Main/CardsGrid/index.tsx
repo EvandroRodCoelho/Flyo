@@ -5,6 +5,7 @@ import anywhere from "../../../assets/images/icon-access-anywhere.svg"
 import security from "../../../assets/images/icon-security.svg"
 import anyfile from "../../../assets/images/icon-any-file.svg"
 import collaboration from "../../../assets/images/icon-collaboration.svg"
+import { Fade } from "react-awesome-reveal"
 export const CardGrid = () => {
     const Cards: Props[] = [
         {
@@ -42,11 +43,16 @@ export const CardGrid = () => {
     return (
         <C.GridContainer>
             {Cards.map((index, value) =>
-                <Card key={value}
-                    Alt={index.Alt}
-                    ImgScr={index.ImgScr}
-                    ContentText={index.ContentText}
-                    ContentTitle={index.ContentTitle} />
+                <>
+                    <Fade>
+
+                        <Card key={value}
+                            Alt={index.Alt}
+                            ImgScr={index.ImgScr}
+                            ContentText={index.ContentText}
+                            ContentTitle={index.ContentTitle} />
+                    </Fade>
+                </>
             )}
         </C.GridContainer>
     )
