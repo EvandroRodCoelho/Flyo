@@ -16,6 +16,9 @@ export const ContainerImg = styled.div`
    align-items: center;
    margin: 0;
    img{
+       opacity: 0;
+       animation: nome .5s forwards;
+       animation-delay: 1s;
        width: 200px;
        max-width: 900px;
     }
@@ -31,6 +34,16 @@ export const ContainerImg = styled.div`
         img{
             width: 600px;
             height: 400px;
+        }
+    }
+    @keyframes nome {
+        0%{
+            transform: translateX(-250px);
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
         }
     }
 `
