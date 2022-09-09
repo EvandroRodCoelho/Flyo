@@ -5,7 +5,7 @@
 WebSite: https://flyodev.netlify.app
 
 ### Clonar 
-git clone git@github.com:EvandroRodCoelho/Flyo.git
+git clone https://github.com/EvandroRodCoelho/Flyo.git
 
 ###  Instalar node modules:
  Na pasta do projeto baixado:
