@@ -5,14 +5,15 @@
 WebSite: https://flyodev.netlify.app
 
 ### Clonar 
-git clone https://github.com/EvandroRodCoelho/Flyo.git
+    git clone https://github.com/EvandroRodCoelho/Flyo.git
 
-###  Instalar node modules:
- Na pasta do projeto baixado:
- npm install
+###  Entrar na pasta
+    Cd Flyo 
+###  Baixar Node modules
+    npm install
 
 ### Rodar projeto:
-npm run dev
+    npm run dev
 
 ## Tecnologias usadas:
 <div class="flex">
