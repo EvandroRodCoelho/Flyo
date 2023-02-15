@@ -7,7 +7,7 @@ export const GridContainer = styled.div`
     animation-delay: .4s;
     @media (min-width: 1000px){
         display: grid;
-        grid-template-columns: repeat( auto-fit, minmax(500px, 1fr));
+        grid-template-columns: repeat( 2, 1fr);
     }
     p{
         margin-top: 0;
